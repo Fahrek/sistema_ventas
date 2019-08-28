@@ -216,6 +216,10 @@ input, select {
     border-radius: 3px;
 }
 
+.notItemOne option:first-child {
+    display: none;
+}
+
 .btn_save {
     font-size: 12pt;
     background: #12a4c6;
@@ -291,10 +295,5 @@ table td {
 .link_delete {
     color: #f26b6b;
 }
-
-
-
-
-
 
 
